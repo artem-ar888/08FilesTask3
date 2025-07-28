@@ -1,14 +1,3 @@
-# def load_file(path):
-#     with open(path) as f:
-#         doc_name = path.replace("\\", '/').split('/')[-1]
-#         doc_lines_list = f.readlines()
-#         lines = len(doc_lines_list)
-#
-# # with open('../doc/final.txt', 'w') as f:
-# #     f.writelines(doc_lines_list)
-#
-# load_file('../doc/1.txt')
-
 def load_and_sort_files(paths, output_file):
     files_data = []
 
